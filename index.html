@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#174d42">
+    <meta name="description" content="Four years of us. A little corner of the world for our love story.">
+    <title>Four years of us ♡</title>
+    <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#" aria-label="Our little corner, home">us<span>♡</span></a>
+      <nav aria-label="Main navigation"><a href="#memories">Our memories</a><a href="#letter">A little love note <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> HAPPY FOURTH ANNIVERSARY</p>
+          <h1 id="hero-title">Four years.<br>Countless memories.<br><em>Always you.</em></h1>
+          <p class="intro">A little corner of the world for my favorite person.</p>
+          <a class="button" href="#letter">I wrote you something <span aria-hidden="true">↗</span></a>
+          <p class="handwritten hero-footnote">so glad it’s you & me.</p>
+        </div>
+        <div class="hero-art" aria-label="A scrapbook space for our favorite photograph">
+          <span class="orbit-heart" aria-hidden="true">♡</span>
+          <div class="back-card" aria-hidden="true"></div>
+          <figure class="polaroid hero-polaroid">
+            <span class="tape" aria-hidden="true"></span>
+            <div class="photo-space hero-photo" id="hero-photo">
+              <svg class="flower" viewBox="0 0 180 200" fill="none" aria-hidden="true"><path d="M91 176V100M91 151C56 152 47 131 48 119c24 0 40 11 43 32Zm0-17c28-1 40-21 39-33-23 3-37 16-39 33Z" stroke="currentColor" stroke-width="2"/><path d="M89 78C55 51 71 22 89 40c16-26 40-6 25 18 33-2 36 28 8 32 14 28-14 41-29 16-18 27-43 9-27-14-32-9-15-34 3-25Z" stroke="currentColor" stroke-width="2"/><circle cx="94" cy="79" r="12" stroke="currentColor" stroke-width="2"/></svg>
+              <span>Our favorite photo goes here</span><small>A moment worth keeping.</small>
+            </div>
+            <figcaption class="handwritten" id="hero-caption">my favorite place is next to you.</figcaption>
+          </figure>
+          <div class="anniversary-stamp"><span>YOU + ME</span><strong>4</strong><span>YEARS OF US</span></div>
+          <span class="art-spark" aria-hidden="true">✧</span>
+        </div>
+      </section>
+      <div class="ribbon turtle-ribbon" aria-label="A turtle swimming from left to right"><svg class="turtle-swim" viewBox="0 0 210 70" aria-hidden="true"><path class="water-line" d="M2 50c10-8 20-8 30 0s20 8 30 0 20-8 30 0 20 8 30 0 20-8 30 0 20 8 30 0 20-8 30 0"/><g class="turtle"><ellipse class="turtle-shell" cx="102" cy="31" rx="31" ry="23"/><path class="shell-detail" d="M76 31c14-13 31-13 51 0M102 8v45M78 46c13-9 32-9 48 0"/><path class="turtle-flipper" d="M87 48c-8 11-15 13-19 9-3-4 3-12 16-17M116 48c8 11 15 13 19 9 3-4-3-12-16-17"/><path class="turtle-flipper" d="M85 15c-8-9-16-9-19-5-2 5 5 11 18 13M118 15c8-9 16-9 19-5 2 5-5 11-18 13"/><path class="turtle-head" d="M130 23c12-9 24-6 28 2 4 9-7 18-19 14l-11-5Z"/><circle cx="149" cy="27" r="1.8" fill="currentColor"/><path class="turtle-tail" d="M72 29 61 33l11 5"/></g></svg></div>
+      <section class="memories wrap section" id="memories" aria-labelledby="memories-title">
+        <div class="section-heading"><div><p class="eyebrow">THE GOOD STUFF</p><h2 id="memories-title">Little moments. <em>Big feelings.</em></h2></div><p>The places we’ve been. The laughs in between.<br>The ordinary days that became everything.</p></div>
+        <div class="memory-grid" id="memory-grid"></div>
+        <p class="memory-afterword handwritten">and we’re only getting started… <span aria-hidden="true">♡</span></p>
+      </section>
+      <section class="letter-section" id="letter" aria-labelledby="letter-title">
+        <div class="letter-layout wrap">
+          <div class="letter-intro"><p class="eyebrow">JUST BETWEEN US</p><h2 id="letter-title">A few words,<br>Just for you.</h2><span class="handwritten">with all my love <span aria-hidden="true">↴</span></span></div>
+          <div class="letter-card">
+            <div class="letter-envelope" id="letter-envelope"><span class="envelope-heart" aria-hidden="true">♡</span><p class="handwritten">To my favorite person,</p><p>There’s something I want you to know.</p><button class="button" id="open-letter" aria-expanded="false" aria-controls="letter-body">Open your letter <span aria-hidden="true">↗</span></button><span class="envelope-label">SEALED WITH LOVE</span></div>
+            <article class="letter-body" id="letter-body" hidden><p class="handwritten salutation" id="salutation"></p><div id="note-text"></div><p class="handwritten signature" id="signature"></p><button class="close-letter" id="close-letter">Fold the letter <span aria-hidden="true">↙</span></button></article>
+          </div>
+        </div>
+      </section>
+      <section class="closing wrap"><p class="handwritten">Happy fourth anniversary.</p></section>
+    </main>
+    <footer class="wrap"><a class="wordmark" href="#" aria-label="Back to top">us<span>♡</span></a><p>Made with love. For you, always.</p><a href="#main">Back to top ↑</a></footer>
+    <noscript><p class="noscript-note">Enable JavaScript to see the photo collection and open your love letter.</p></noscript>
+  </body>
+</html>
